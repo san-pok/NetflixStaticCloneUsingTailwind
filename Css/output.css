@@ -722,6 +722,26 @@ video {
   bottom: 20%;
 }
 
+.left-\[20\%\] {
+  left: 20%;
+}
+
+.bottom-\[40\%\] {
+  bottom: 40%;
+}
+
+.bottom-\[50\%\] {
+  bottom: 50%;
+}
+
+.bottom-\[60\%\] {
+  bottom: 60%;
+}
+
+.bottom-\[45\%\] {
+  bottom: 45%;
+}
+
 .z-0 {
   z-index: 0;
 }
@@ -887,6 +907,10 @@ video {
 
 .w-\[80\%\] {
   width: 80%;
+}
+
+.w-\[60\%\] {
+  width: 60%;
 }
 
 .max-w-\[1024px\] {
