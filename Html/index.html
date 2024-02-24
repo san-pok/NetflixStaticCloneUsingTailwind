@@ -5,9 +5,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <title>Document</title>
+    
     <link rel="stylesheet" href="../Css/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.5.0/css/all.min.css">
 </head>
-<body class="bg-slate-600">
-   
+<body >
+     <!-- Hero section start  -->
+     <div class="w-[100%] h-[100vh] bg-[url('../Assets/Images/hero_section.jpg')] bg-center bg-cover">
+        <!-- section for adding black overlay starts   -->
+      <div class="w-full h-[100vh] bg-[rgba(0,0,0,0.6)]">
+        <!-- main content area start  -->
+        <div class="max-w-[1170px] mx-auto">
+             <!-- nav section starts  -->
+            <div class="grid sm:grid-cols-2 grid-cols-[30%_auto] px-5 py-5 items-center">
+            <figure>
+                <img src="../Assets/Images/logo.png" alt="logo" class="w-[160px]">
+            </figure>
+            <!-- langauge and signin section starts  -->
+            <div class="flex justify-end items-center sm:gap-10 gap-5">
+                <div class="relative ">
+                    <i class="fa fa-globe absolute text-white top-[11px] left-2"></i>
+                    <select name="" id="" class="bg-black text-white border-white border-[1px] py-[6px] pl-[30px] pr-[1px] rounded-md">
+                        <option value="">English</option>
+                        <option value="">Nepali</option>
+                        <option value="">Phillipino</option>
+                    </select>
+                </div>
+                <button class="bg-red-500 rounded-md text-white p-[4px_8px]">Sign IN</button>
+            </div>
+              <!-- langauge and signin section ends  -->
+            </div>
+            <!-- nav section ends  -->
+
+            <!-- main banner section starts  -->
+            <div class="max-w-[1170px] mx-auto sm:py-[150px] py-[50px]">
+                <h1 class="text-white sm:text-5xl text-3xl font-extrabold text-center">Unlimited movies, TV shows and more</h1>
+                <h4 class="text-white text-3xl text-center py-6">Watch anywhere. Cancel at any time.</h4>
+                <p class="text-white text-2xl text-center py-2">Ready to watch Netflix? Enter your email to create or restart your membership.</p>
+                <!-- email newsletter section starts  -->
+                <div class="max-w-[700px] px-5 mx-auto mt-6">
+                    <form class="grid sm:grid-cols-[70%_auto] grid-cols-1 gap-8">
+                        <input type="email" name="email" id="" placeholder="Email address" class="border-[1px] border-gray-300 bg-transparent h-[50px] pl-[20px]">
+                        <button class="bg-red-500 text-white rounded-md w-fit py-2 pl-4 pr-8 mx-auto relative font-bold hover:bg-red-700 duration-200">
+                            Get Started  <i class="fa fa-angle-right ml-4 text-xl"></i>
+                        </button>
+                    </form>
+                </div>
+                <!-- email newsletter section ends  -->
+            </div>
+            <!-- main banner section ends  -->
+
+
+
+        </div>
+        <!-- main content area ends  -->
+      </div>
+      <!-- section for adding black overlay ends   -->
+     </div>
+     <!-- Hero section ends  -->
+ <!-- ============================================================================================================== -->
+     
+ 
+    
+
+
 </body>
 </html>
